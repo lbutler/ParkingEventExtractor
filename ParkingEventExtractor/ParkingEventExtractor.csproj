@@ -60,6 +60,7 @@
     <Compile Include="Models\Side.cs" />
     <Compile Include="Models\SignPlate.cs" />
     <Compile Include="Models\Street.cs" />
+    <Compile Include="ParkingExtractor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
