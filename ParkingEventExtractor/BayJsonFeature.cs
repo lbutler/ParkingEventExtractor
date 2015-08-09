@@ -57,7 +57,7 @@ namespace ParkingEventExtractor
             var sensordata = bay.ParkingEvents.Select(
                 pe => new {
                     arrivalDateTime = pe.ArrivalDateTime,
-                    depart = pe.DepartureDateTime,
+                    departDateTime = pe.DepartureDateTime,
                     inViolation = pe.InViolation,
                     signPlateId = pe.SignPlate.SignPlateId
                 });
